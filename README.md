@@ -36,4 +36,4 @@ After activating the environment and providing all the paths, you are ready to u
 python3 Main.py
 ```
 and hit Enter. The MCMC parameter estimation is now up and running. 
-**NOTE**: Please refer to [```emceee```](https://emcee.readthedocs.io/en/stable/) docs to understand how the ```Main.py``` utilized emceee to perform inference. Also refer to its chain saving process via ```backend``` process. This backend is also enabled in this pipeline.
+**NOTE**: Please refer to the [```emcee```](https://emcee.readthedocs.io/en/stable/) documentation to understand how ```Main.py``` uses emcee for parameter estimation. The code also includes the emcee's backend feature for automatically saving and resuming MCMC chains.
