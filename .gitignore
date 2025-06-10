@@ -1,0 +1,51 @@
+# === C/C++ build and intermediate files ===
+*.o
+*.obj
+*.so
+*.a
+*.out
+*.exe
+*.dll
+*.dylib
+
+# === Build and dependency directories ===
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# === Python cache files ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Python environment folders ===
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# === VSCode IDE configuration ===
+.vscode/
+
+# === Backup & temporary files ===
+*~
+*.log
+*.tmp
+*.swp
+
+# === Compiled binary names (common in your repo) ===
+ps_main
+main
+
+# === Input/output specific to your project ===
+input/
+output/
+*.dat
+*.npy
+
+# === Generated file ===
+repo_structure.txt

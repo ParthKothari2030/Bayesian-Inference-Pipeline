@@ -1,0 +1,2 @@
+halo_catalogue_0.33 0.33 /media/disk1/parth/JointAnalysis_MeerKAT_z_33/HI_JointAnalysis_0.42Mpc_z.0.33.bin
+
