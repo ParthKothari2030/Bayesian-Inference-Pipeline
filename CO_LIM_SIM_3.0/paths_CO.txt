@@ -1,0 +1,2 @@
+groupcat-z3.010 3.010 /media/disk1/parth/JointAnalysis_MeerKAT_z_33/CO_JointAnalysis_0.56MPc_z3.010.bin
+
