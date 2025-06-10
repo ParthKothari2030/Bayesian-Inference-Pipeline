@@ -6,4 +6,7 @@ The intensity and power spectrum framework has been updated for the pipeline suc
 
 ## Inference codes
 Four modules have been developed to integrate the LIM simulator and Powerspectrum for inference using MCMC.
-- `CodeExecutor`:
+- `CodeExecutor`: Python subprocess wrapper for executing compiled C/C++ executables.
+- `COMAPMeerKAT_Data`: Data loader for COMAP and MeerKAT power spectrum observations used in cosmological parameter estimation.
+- `CosmologicalBayesianMethods`: MCMC-ready likelihood calculators for cosmological power spectrum analysis and parameter inference.
+- `Main`: ```emcee``` based MCMC code for parameter estimation.
