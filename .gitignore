@@ -38,8 +38,8 @@ build/
 *.swp
 
 # === Compiled binary names (common in your repo) ===
-ps_main
-main
+PowerSpectrum
+LIM_simulator
 
 # === Input/output specific to your project ===
 input/
