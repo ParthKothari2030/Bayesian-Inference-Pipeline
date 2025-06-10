@@ -1,5 +1,5 @@
 # Bayesian Inference pipeline
-This repository contains C++-based simulation modules [Murmu et al. 2021](https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.2500M/abstract), C-based power spectrum computation tools [Murmu et al. 2021](https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.2500M/abstract), and Python scripts that integrate these components into an [```emceee```](https://emcee.readthedocs.io/en/stable/)-driven MCMC pipeline for cosmological data analysis using Bayesian inference.
+This repository contains C++-based simulation modules [Murmu et al. 2021](https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.2500M/abstract), C-based power spectrum computation tools [Murmu et al. 2021](https://ui.adsabs.harvard.edu/abs/2021MNRAS.507.2500M/abstract), and Python scripts that integrate these components into an [```emcee```](https://emcee.readthedocs.io/en/stable/)-driven MCMC pipeline for cosmological data analysis using Bayesian inference.
 
 ## LIM SIM and New Power spec
 The intensity and power spectrum framework has been updated for the pipeline such that it can take specific parameter values as input to generate maps, and the power spectrum is calculated for a specified range of k values. The updated code and its dependencies are demonstrated here for the [LIM simulator](https://github.com/ParthKothari2030/LIM_simulator) and [PowerSpectrum](https://github.com/ParthKothari2030/PowerSpectrum).
@@ -9,7 +9,7 @@ Four modules have been developed to integrate the LIM simulator and Powerspectru
 - `CodeExecutor`: Python subprocess wrapper for executing compiled C/C++ executables.
 - `COMAPMeerKAT_Data`: Data loader for COMAP and MeerKAT power spectrum observations used in cosmological parameter estimation.
 - `CosmologicalBayesianMethods`: MCMC-ready likelihood calculators for cosmological power spectrum analysis and parameter inference.
-- `Main`: [```emceee```](https://emcee.readthedocs.io/en/stable/) based MCMC code for parameter estimation.
+- `Main`: [```emcee```](https://emcee.readthedocs.io/en/stable/) based MCMC code for parameter estimation.
 - `TimeCheck`: script to check the time taken for one iteration of map + powerspectrum calculation using Python wrapper.
 
 ## Pipeline usage
